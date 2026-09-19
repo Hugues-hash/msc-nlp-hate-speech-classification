@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (not committed, see data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.p
+
+# Trained models / checkpoints
+*.pt
+*.pth
+results/
+roberta*/
+
+# transfer artifact
+*.zip
